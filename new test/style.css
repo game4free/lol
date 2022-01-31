@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Tajawal", sans-serif;
+	background: #d9e2ec;
+	overflow-x: hidden;
+}
+h1 span {
+	color: #27ab83;
+}
+
+h2 {
+	color: #243b53;
+	font-size: 3.4rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	color: #2b4561;
+	font-size: 2.4rem;
+	margin-bottom: 1rem;
+}
+h4 {
+	font-size: 2rem;
+	width: 40%;
+	line-height: 1.8;
+	margin-bottom: 2rem;
+	color: #d5d5d5;
+}
+
+p {
+	font-size: 1.6rem;
+	color: #355375;
+	line-height: 2;
+}
+/* Nav Section */
+.nav-container {
+	background: #334e68;
+	color: #f0f4f8;
+}
+nav {
+	width: 90%;
+	max-width: 1366px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 10vh;
+	font-size: 1.6rem;
+}
+nav.logo {
+	font-family: 'Kufam', cursive;
+	font-weight: bold;
+	color: #f0f4f8;
+	flex: 3;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	flex: 1;
+}
+nav ul li a {
+	color: #f0f4f8;
+	text-decoration: none;
+}
